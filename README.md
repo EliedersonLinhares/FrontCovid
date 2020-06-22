@@ -1,3 +1,7 @@
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c4bb872-0ceb-455c-a555-35f6db548cb9/deploy-status)](https://app.netlify.com/sites/frontcovid/deploys)
+
+
 # FrontCovid 
 
 Sistema de monitoramento da epidemia de Covi-19 no brasil e no mundo
@@ -6,6 +10,12 @@ Sistema de monitoramento da epidemia de Covi-19 no brasil e no mundo
 
 Este sistema tem por objetivo agregar dados de fontes que disponibilizam dados sobre a covid-19
 e mostrar através de gráficos a situação no Brasil e no mundo
+
+
+## Site
+
+[frontcovid.netlify.app](frontcovid.netlify.app)
+
 
 Telas
 
@@ -61,9 +71,9 @@ A versão colocada aqui é a usada durante o desenvolvimento na versão 1.0
 * Este é meu primeiro projeto usando o reactjs
 * Consegui aprender bastante sobre o funcionamento do react como Hooks,useEffect 
 e uma programação mas funcional
-* Descobrir e trabalhar com dados de terceiros, enterder como funcionam suas APIs é realmente
+* Descobrir e trabalhar com dados de terceiros, entender como funcionam suas APIs é realmente
 desafiador
-* Encontrar dados sobre a covid-19  tambem não é facil.
+* Encontrar dados sobre a covid-19 tambem não é facil.
 * Utilizei um template pronto pois resolvi focar mais no funciomento do sistema do que na parte
 estlização, mais mesmo assim fiz alguns ajustes para uso pessoal
 
