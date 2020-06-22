@@ -1,0 +1,6 @@
+{
+  "name": "SantaCatarina",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SantaCatarina.js"
+}

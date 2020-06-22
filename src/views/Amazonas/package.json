@@ -1,0 +1,6 @@
+{
+  "name": "Amazonas",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Amazonas.js"
+}
