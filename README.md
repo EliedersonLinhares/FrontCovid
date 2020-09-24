@@ -17,7 +17,7 @@ e mostrar através de gráficos a situação no Brasil e no mundo
 
 [FrontCovid](frontcovid.netlify.app)
 
-# Updates
+## Updates
 -24/09/2020
  -O Sistema apresenta algumas falhas pois os servidores de dados estão limitando o numero de conexões
  -A parte sobre o mundo teve a parte de países com alguns retirados, em breve será refeito 
