@@ -15,7 +15,7 @@ e mostrar através de gráficos a situação no Brasil e no mundo
 
 ## Site
 
-[FrontCovid](frontcovid.netlify.app)
+[FrontCovid](https://frontcovid.netlify.app)
 
 ## Updates
 -24/09/2020
