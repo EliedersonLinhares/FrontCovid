@@ -11,25 +11,21 @@ import {
 
 ///////
 import {
-  HBarChartsCountriesDeath,
-  HBarChartsCountriesInfected,
-  HBarChartsCountriesNewInf,
-  HBarChartsCountriesNewDeath,
   LineChartUSAInf,
-  LineChartBRInf,
+ // LineChartBRInf,
   LineChartRUInf,
-  LineChartCAInf,
-  LineChartMEInf,
-  LineChartESInf,
-  LineChartFRInf,
-  LineChartGEInf,
+  //LineChartCAInf,
+ // LineChartMEInf,
+ // LineChartESInf,
+ // LineChartFRInf,
+ // LineChartGEInf,
   LineChartIDInf,
-  LineChartIRInf,
-  LineChartITInf,
-  LineChartPEInf,
-  LineChartSAInf,
-  LineChartTUInf,
-  LineChartUKInf,
+ // LineChartIRInf,
+//  LineChartITInf,
+//  LineChartPEInf,
+//  LineChartSAInf,
+//  LineChartTUInf,
+//  LineChartUKInf,
   LineChartWorld,
 } from '../../components';
 //Como o arquivo é o index.js não precisa escreve-lo diretamente
@@ -203,12 +199,14 @@ class World extends Component {
               <LineChartUSAInf></LineChartUSAInf>
             </Card>
           </Col>
+          
           <Col Col xs="12" sm="4" lg="4">
             <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-            
-              <LineChartBRInf></LineChartBRInf>
+              <LineChartIDInf></LineChartIDInf>
             </Card>
           </Col>
+          
+       
           <Col Col xs="12" sm="4" lg="4">
             <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
               <LineChartRUInf></LineChartRUInf>
@@ -216,78 +214,7 @@ class World extends Component {
           </Col>
         </Row>
 
-        <Row>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartITInf></LineChartITInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartUKInf></LineChartUKInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartFRInf></LineChartFRInf>
-            </Card>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartGEInf></LineChartGEInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartCAInf></LineChartCAInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartESInf></LineChartESInf>
-            </Card>
-          </Col>
-        </Row>
-
         
-        <Row>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartTUInf></LineChartTUInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartSAInf></LineChartSAInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartIRInf></LineChartIRInf>
-            </Card>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartMEInf></LineChartMEInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartIDInf></LineChartIDInf>
-            </Card>
-          </Col>
-          <Col Col xs="12" sm="4" lg="4">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
-              <LineChartPEInf></LineChartPEInf>
-            </Card>
-          </Col>
-        </Row>
 
 
 
@@ -418,3 +345,85 @@ export default World;
 
 
  */
+
+ /**
+  <Row>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartITInf></LineChartITInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartUKInf></LineChartUKInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartFRInf></LineChartFRInf>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartGEInf></LineChartGEInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartCAInf></LineChartCAInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartESInf></LineChartESInf>
+            </Card>
+          </Col>
+        </Row>
+
+        
+        <Row>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartTUInf></LineChartTUInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartSAInf></LineChartSAInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartIRInf></LineChartIRInf>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartMEInf></LineChartMEInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartIDInf></LineChartIDInf>
+            </Card>
+          </Col>
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+              <LineChartPEInf></LineChartPEInf>
+            </Card>
+          </Col>
+        </Row>
+           
+          <Col Col xs="12" sm="4" lg="4">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)' }}>
+            
+              <LineChartBRInf></LineChartBRInf>
+            </Card>
+          </Col>
+  */

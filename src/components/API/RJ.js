@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const url4= "https://brasil.io/api/dataset/covid19/caso_full/data/"
+const url4= "https://cors-anywhere.herokuapp.com/https://brasil.io/api/dataset/covid19/caso_full/data/"
 
 
 export const DadosRJFull = async () => {

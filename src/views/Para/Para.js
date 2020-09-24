@@ -17,7 +17,6 @@ import {
   LineChartsPADia,
   LineChartsPAConfRate,
   LineChartsPALetal,
-  CardsPA,
   HBarChartsDistrictsInfPA,
   HBarChartsDistrictsDeathPA
 } from '../../components';
@@ -27,7 +26,7 @@ import { dateUpdate} from '../../components/API';
 
 
 import Moment from 'react-moment';
-import NumberFormat from 'react-number-format';
+//import NumberFormat from 'react-number-format';
 import ReactCountUp from 'react-countup-v2';
 
 import styles from './Para.css';
@@ -96,12 +95,12 @@ class Para extends Component {
 
 
   render() {
-    const { DadosPAConfirmed ,DadosPADeceased,dateUpdate, DadosPAFull } = this.state
+    const { DadosPAConfirmed ,DadosPADeceased,dateUpdate} = this.state
    // console.log(data)
 
    const calcDeathRate = () => ((DadosPADeceased/DadosPAConfirmed)*100).toFixed(2)
-   const calcEstimateInfected = () => ((calcDeathRate() - 2 ) * DadosPAConfirmed ).toFixed(0)
-   const calcPercentPopulationInfected = () => ((calcEstimateInfected()/8602865)*100).toFixed(2)
+   //const calcEstimateInfected = () => ((calcDeathRate() - 2 ) * DadosPAConfirmed ).toFixed(0)
+  // const calcPercentPopulationInfected = () => ((calcEstimateInfected()/8602865)*100).toFixed(2)
    //const calcDoubleTimeDeaths = () => DadosPAFull.filter(el => el.new_deaths[1])
  
 

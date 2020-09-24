@@ -13,7 +13,7 @@ const LineCharts = () =>{
 
     fetchAPI();
   },[setfetchedWorldTimeline]);
- console.log(fetchedWorldTimeline)
+ //console.log(fetchedWorldTimeline)
 
 
    const LineChart =(

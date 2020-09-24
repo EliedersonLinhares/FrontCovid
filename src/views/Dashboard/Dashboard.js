@@ -12,9 +12,9 @@ import {
 ///////
 import { 
   Maps, 
-  Charts,
+ // Charts,
   LineChartBR,
-  LineChartBRState,
+ // LineChartBRState,
   LineChartBRStateRJ,
   LineChartBRStateES,
   LineChartBRStateSP,
@@ -43,11 +43,11 @@ import {
   LineChartBRStateRR,
   LineChartBRStateTO,
   HBarChartsStatesInfected,
-  HBarChartsStatesNewInfected,
+ // HBarChartsStatesNewInfected,
   HBarChartsStatesDeath,
-  HBarChartsStatesNewDeath,
-  HBarChartsStatesConfirmed100k,
-  HBarChartsStatesDeathRate,
+ // HBarChartsStatesNewDeath,
+ // HBarChartsStatesConfirmed100k,
+ // HBarChartsStatesDeathRate,
  } from '../../components';
 //Como o arquivo é o index.js não precisa escreve-lo diretamente
 import { Infected,Deceased,Recovered,dateUpdate } from '../../components/API';
@@ -218,47 +218,67 @@ class Dashboard extends Component {
           </Col>
         </Row>
        
-        <Row>
+       
+       
+        
+
+
+
+      </div>
+    );
+  }
+}
+
+export default Dashboard;
+
+// <NumberFormat value={recovered} displayType={'text'} thousandSeparator={true} />
+
+/**
+ 
+ <Row>
+          <Col>
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
+            <LineChartBRState></LineChartBRState>
+            </Card>
+          </Col>
+        </Row>
+
+
+         <Row>
+          <Col>
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
+            <Charts  ></Charts>
+            </Card>
+          </Col>
+        </Row>
+            <Col xs="12" sm="6" lg="6">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
+            <HBarChartsStatesNewDeath></HBarChartsStatesNewDeath>
+            </Card>
+          </Col>
+           <Col xs="12" sm="6" lg="6">
+            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
+            <HBarChartsStatesNewInfected></HBarChartsStatesNewInfected>
+            </Card>
+          </Col>
+
+
+           <Row>
            <Col xs="12" sm="6" lg="6">
             <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
             <HBarChartsStatesInfected></HBarChartsStatesInfected>
             </Card>
           </Col>
-          <Col xs="12" sm="6" lg="6">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
-            <HBarChartsStatesNewInfected></HBarChartsStatesNewInfected>
-            </Card>
-          </Col>
-        </Row>
-
-        <Row>
            <Col xs="12" sm="6" lg="6">
             <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
             <HBarChartsStatesDeath></HBarChartsStatesDeath>
             </Card>
           </Col>
-          <Col xs="12" sm="6" lg="6">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
-            <HBarChartsStatesNewDeath></HBarChartsStatesNewDeath>
-            </Card>
-          </Col>
-        </Row>
-       
-        <Row>
-           <Col xs="12" sm="6" lg="6">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
-            <HBarChartsStatesConfirmed100k></HBarChartsStatesConfirmed100k>
-            </Card>
-          </Col>
-          <Col xs="12" sm="6" lg="6">
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
-            <HBarChartsStatesDeathRate></HBarChartsStatesDeathRate>
-            </Card>
-          </Col>
+      
         </Row>
 
 
-
+        
         <Row>
           <Col Col xs="12" sm="4" lg="4">
             <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
@@ -421,31 +441,5 @@ class Dashboard extends Component {
           </Col>
         </Row>
 
-      </div>
-    );
-  }
-}
-
-export default Dashboard;
-
-// <NumberFormat value={recovered} displayType={'text'} thousandSeparator={true} />
-
-/**
- 
- <Row>
-          <Col>
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
-            <LineChartBRState></LineChartBRState>
-            </Card>
-          </Col>
-        </Row>
-
-
-         <Row>
-          <Col>
-            <Card style={{ backgroundColor: '#2F353A', borderColor: 'rgba(94, 128, 237, 0.2)'}}>
-            <Charts  ></Charts>
-            </Card>
-          </Col>
-        </Row>
+        
  */
