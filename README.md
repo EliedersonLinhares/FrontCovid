@@ -1,7 +1,4 @@
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1c4bb872-0ceb-455c-a555-35f6db548cb9/deploy-status)](https://app.netlify.com/sites/frontcovid/deploys)
-
-
 
 # FrontCovid 
 
@@ -12,15 +9,6 @@ Sistema de monitoramento da epidemia de Covi-19 no brasil e no mundo
 Este sistema tem por objetivo agregar dados de fontes que disponibilizam dados sobre a covid-19
 e mostrar através de gráficos a situação no Brasil e no mundo
 
-
-## Site
-
-[FrontCovid](https://frontcovid.netlify.app)
-
-## Updates
--24/09/2020
- -O Sistema apresenta algumas falhas pois os servidores de dados estão limitando o numero de conexões
- -A parte sobre o mundo teve a parte de países com alguns retirados, em breve será refeito 
 
 Telas
 
